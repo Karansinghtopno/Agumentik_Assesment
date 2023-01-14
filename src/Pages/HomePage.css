@@ -1,0 +1,44 @@
+.homepageContent {
+  /* border: 2px solid white; */
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.moto {
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.description {
+  color: whitesmoke;
+  margin-top: 30px;
+  /* border: 1px solid white; */
+  width: 600px;
+}
+.btn {
+  padding: 10px;
+  width: 150px;
+  font-size: 15px;
+  margin-top: 30px;
+  background: #ec106a;
+  color: white;
+  border-color: #0d101b;
+  border-style: double;
+  border-width: 8px;
+  cursor: pointer;
+}
+
+
+@media (max-width: 700px) {
+  .moto {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .description {
+    color: whitesmoke;
+    margin-top: 30px;
+    width: 400px;
+  }
+}
